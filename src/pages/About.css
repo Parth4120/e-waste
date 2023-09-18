@@ -1,4 +1,4 @@
-.about-container{
+/* .about-container{
     display: flex;
     flex-direction: row;
     max-width:1183px ;
@@ -12,17 +12,19 @@
 .about-img{
     width: 35%;
     height: 35%;
-    margin: auto;
+    margin:inherit;
+
 }
 .about-img img{
-    width: 312px;
-    height: 153px;
+    width: 390px;
+    height: 290px;
     
 }
 
 .about-content{
     width: 65%;
     height: 65%;
+    margin: 3.5rem;
 }
 .about-content p{
     color: #004225;
@@ -31,4 +33,21 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    
+} */
+
+
+/* part-2 */
+
+
+.about-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem;
+}
+
+.about-heading{
+    
 }
