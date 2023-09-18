@@ -18,16 +18,28 @@ const About = () => {
         <div className='about-container'>
         <div className='about-heading'>
             <h1>Welcome to GoGreen</h1>
+            <div className='about-heading-1'>
             <span>Lorem ipsum dolor sit.</span>
-        </div>
+            </div>
             
-            <p>
+        </div>
+
+            <div className='about-content-main'>
+            
+            <div className='about-content-main-1'>
                 <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis assumenda, nostrum est labore voluptatem enim!</span>
-                <br />
+            </div>
+                <div className='about-content-main-2'>
                 <span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore, porro odit.</span>
-                <br />
+                </div>
+                
+                <div className='about-content-main-3'>
                 <span>Lorem ipsum dolor sit amet consectetur adipisicing.</span>
-            </p>
+                </div>
+                
+            
+            </div>
+            
         </div>
     
   )

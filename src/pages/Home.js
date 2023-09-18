@@ -2,12 +2,13 @@ import React from 'react'
 import './Home.css';
 import img from '../e-waste.png'
 import About from './About';
+import Services from './Services';
 const Home = () => {
   return (
     <div className='main-container'>
 
     {/* <div className='container'> */}
-      <div className='main-header'>
+      <div className='main-header' >
          
         <p>"Discover, Dispose, and Earn:
         <br />
@@ -19,6 +20,9 @@ const Home = () => {
 
       <div>
         <About/>
+      </div>
+      <div>
+        <Services/>
       </div>
     </div>
   )

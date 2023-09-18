@@ -48,6 +48,34 @@
     margin: 3rem;
 }
 
-.about-heading{
+
+.about-heading-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-content-main{
+    margin: 2rem;
+    line-height: 2rem;
+}
+
+.about-content-main-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+}
+.about-content-main-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+}
+.about-content-main-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
     
 }

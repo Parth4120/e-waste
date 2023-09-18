@@ -4,6 +4,7 @@
     box-sizing: border-box;
     overflow-x: hidden;
     scroll-behavior:auto;
+   
 }
 .main-container{
    width: 100vw;
@@ -17,7 +18,7 @@
     height: 1000px;
     background-position: center;
     background-size: cover; 
-    
+   
 }
 
 
@@ -30,6 +31,7 @@
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+   
 }
 
 .main-header span.home-heading{
