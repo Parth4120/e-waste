@@ -1,0 +1,24 @@
+.mainSignup{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: cyan;
+    
+}
+.signCard{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:2rem;
+}
+.cardSignContent{
+    width:150px;
+    height: 150px;
+    background: lightgreen;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    box-shadow: 0 2px 8px 2px rgba(178,178,178,0.334);;
+
+}
