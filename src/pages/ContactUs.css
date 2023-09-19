@@ -1,0 +1,9 @@
+.contactus-container{
+    display: flex;
+    justify-content: space-evenly;
+    background:lightgray 0% 0% / 100px 100px repeat linear-gradient(180deg, #EEFDF7 0%, rgba(212, 245, 230, 0.60) 100%);
+}
+
+.form{
+    all: unset;
+}
