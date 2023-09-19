@@ -1,6 +1,6 @@
 .services-container-main{
     display: flex;
-    max-width: 1438px;
+    max-width: 100%;
     justify-content: space-evenly;
     margin: 3rem;
 }

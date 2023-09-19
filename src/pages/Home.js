@@ -3,6 +3,8 @@ import './Home.css';
 import img from '../e-waste.png'
 import About from './About';
 import Services from './Services';
+import Footer from '../components/Footer'
+import ContactUs from './ContactUs';
 const Home = () => {
   return (
     <div className='main-container'>
@@ -24,6 +26,13 @@ const Home = () => {
       <div>
         <Services/>
       </div>
+      <div>
+        <ContactUs></ContactUs>
+      </div>
+      <div>
+      <Footer/>
+      </div>
+      
     </div>
   )
 }

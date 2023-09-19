@@ -5,6 +5,7 @@ import { useState } from 'react';
 
 
 const ContactUs = () => {
+
     // const [formData,setFormData]=useState({firstName:"",email:"",textArea:""});
     // function changeHandler(event){
     //     setFormData((prevData) => ({
@@ -19,12 +20,12 @@ const ContactUs = () => {
     //   }
     //   console.log(data)
     // }
-  const [formData,setFormData]=useState({firstName:""})
+  const [formData,setFormData]=useState({firstName:"",email:"",textArea:""})
 
   function changeHandler(event){
     setFormData((prevData) => ({
-      ...prevData,
-      [event.target.name]:event.target.value
+        ...prevData,
+        [event.target.name]:event.target.value
     }))
   }
   function submitHandler(event){
@@ -36,34 +37,38 @@ const ContactUs = () => {
   }
   return (
     <div className='contactus-container'>
-      <div>
+      <div className='contactus-img'>
         <img src={imgContect} alt="" />
       </div>
-      {/* form */}
-      <div>
-      <form className="form"action="" onSubmit={submitHandler}>
+      
+      <div className='form'>
+      <div className='form-heading'>
+        <h1>Request an Inquiry</h1>
+      </div>
+      
+      <form action="" onSubmit={submitHandler} form-one className='form-user'>
       <div>
       <label htmlFor="">
-            <p>First Name <sup>*</sup></p>
-            <input type="text" name='firstName' placeholder='enter first name' onChange={changeHandler} value={formData.firstName} required />
+            <input className='form-Name' type="text" name='firstName' placeholder='enter name' onChange={changeHandler} value={formData.firstName} required />
         </label>
 
 
         <label htmlFor="">
-        <p>Email Address <sup>*</sup> </p>
-        <input type="email" name="email" placeholder='enter email id' value={formData.email} onChange={changeHandler}  id="" required/>
+        <input className='form-email' type="email" name="email" placeholder='enter email id' value={formData.email} onChange={changeHandler}  id="" required/>
         </label>
       </div>
       <div>
-        <textarea name="textArea" value={formData.textArea} placeholder='enter your quarry' id="" cols="15" rows="5" onChange={changeHandler} required></textarea>
+        <textarea className='form-text'name="textArea" value={formData.textArea} placeholder='enter your quarry' id="" cols="15" rows="5" onChange={changeHandler} required></textarea>
       </div>
 
-      <div>Submit</div>
-
-      
+      <div className='form-btn-container'>
+      <button className='form-btn'>Submit</button>
+      </div>
       </form>
       </div>
-    </div>
+
+      </div>
+    // </div>
   )
 }
 

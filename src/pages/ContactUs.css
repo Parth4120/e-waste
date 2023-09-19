@@ -1,9 +1,108 @@
 .contactus-container{
     display: flex;
-    justify-content: space-evenly;
-    background:lightgray 0% 0% / 100px 100px repeat linear-gradient(180deg, #EEFDF7 0%, rgba(212, 245, 230, 0.60) 100%);
+    width: 100%;
+    
+}
+
+.contactus-img{
+    width: 50%;
+    margin: 5rem;
+    flex-wrap: wrap;
 }
 
 .form{
     all: unset;
+    display: flex;
+    flex-direction: column;
+     width: 50%;
+     justify-content: center;
+     align-items: center;
+     /* flex-wrap: wrap; */
 }
+
+.form-heading{
+    all: unset;
+    margin-right: 9.5rem;
+    margin-bottom: 2rem;
+    color: #004225;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+input[type="text"]
+{
+    font-size:22px;
+}
+
+input[type="email"]
+{
+    font-size:22px;
+}
+
+textarea { font-size: 22px; }
+
+.form-Name{
+    border-radius: 15px;
+    border: 2px solid #85A697;
+    background: #ffffff;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+    width: 521px;
+    height: 64px;
+    
+}
+
+::placeholder{
+    color: #004225;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 2rem;
+    text-size-adjust: 25px;
+}
+
+.form-email{
+    border-radius: 15px;
+    border: 2px solid #85A697;
+    background: #ffffff;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+    width: 521px;
+    height: 64px;
+    margin-top: 1.5rem;
+    
+}
+
+.form-text{
+    border-radius: 15px;
+    border: 2px solid #85A697;
+    background: #ffffff;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+    width: 521px;
+    height: 84px;
+    margin-top: 1.5rem;
+    padding: 2rem;
+    padding-left: 0rem;
+}
+.form-btn-container{
+    margin-left: 13rem;
+    
+}
+
+.form-btn{
+    cursor: pointer;
+    border-radius: 6px;
+    background: #004225;
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+     margin-top: 1.5rem;
+}
+
+
+
+
