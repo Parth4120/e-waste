@@ -1,9 +1,53 @@
+.signupWrapper{
+    max-width: 970px;
+    margin: auto;
+    transform: translateY(30%);
+    background-color:rgba(0, 66, 37, 0.03);
+    margin-bottom: 15rem;
+    padding:1rem;
+
+}
+
 .mainSignup{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    background-color: cyan;
-    
+    gap:7rem;
+    justify-content: center;
+    padding: 1rem;
+    border-radius: 16px;
+    justify-content: center;
+}
+.infoleft{
+    display: flex;
+    flex-direction: column;
+    /* gap: 1rem; */
+}
+.labelContent{
+font-size: 0.9rem;
+
+}
+.inputbar{
+    border:none;
+    outline:none;
+    width:20rem;
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+    margin-top: 0.4rem;
+    background: rgba(207, 232, 221, 0.80)
+
+}
+.createAcountbtn{
+    background:#004225;
+    color: white;
+    width:8rem;
+    border-radius: 0.2rem;
+    padding:0.5rem;
+    margin-top: 2rem;
+}
+
+
+.inforight{
+    margin-top:5rem;
 }
 .signCard{
     display:grid;
@@ -11,14 +55,20 @@
     gap:2rem;
 }
 .cardSignContent{
-    width:150px;
-    height: 150px;
-    background: lightgreen;
+    width:10rem;
+    height: 9rem;
+    background: rgba(140, 194, 170, 0.30);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border-radius: 16px;
-    box-shadow: 0 2px 8px 2px rgba(178,178,178,0.334);;
-
+    border-radius: 1rem;
+    box-shadow:  0px 4px 4px 0px rgba(0, 66, 37, 0.80);
+    /* 0 2px 8px 2px rgba(,178,178,178,0.334); */
+}
+.cardimg{
+    margin-top: 1rem;
+}
+.create-already-acount{
+  margin-left: 9%;
 }
