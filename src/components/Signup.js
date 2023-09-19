@@ -12,7 +12,7 @@ const Signup = () => {
     <div className='mainSignup'>
      {/* leftside */}
      <div className='infoleft'>
-      <h1>Sign Up</h1>
+      <h1 className='signupheading'>Sign Up</h1>
       <label htmlFor='fullname' className='labelContent'>Username</label>
       <input type="text" id='fullname' className='inputbar' placeholder='Username'></input><br/>
       <label htmlFor='mobile' className='labelContent'>Mobile Number</label>
@@ -21,6 +21,11 @@ const Signup = () => {
       <input type="text" id='email' placeholder='Email-address' className='inputbar'></input><br/>
       <label htmlFor='password' className='labelContent'>Password</label>
       <input type="text" id='password' placeholder='Password'className='inputbar'></input>
+
+      <div className='create-already-acount'>
+<button className='createAcountbtn'>Create Account</button>
+  <p className='signuptext'>Already have an account ?<a href="/">Login</a></p>
+</div>
 
     </div>
     {/* right side */}
@@ -50,10 +55,7 @@ const Signup = () => {
 
     </div>
 
-<div className='create-already-acount'>
-<button className='createAcountbtn'>Create Account</button>
-  <p>Already have an account ?<a href="/">Login</a></p>
-</div>
+
 
 </div>
  </>
