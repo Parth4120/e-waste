@@ -1,0 +1,51 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 3rem ;
+    background-color: #CFE8DD;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+button{
+    padding: 1.3125rem 2.806rem 1.25rem 2.75rem;
+    border-radius: 0.9375rem;
+    border: 1px solid #004225;
+    background: rgba(0, 66, 37, 0.10);
+    color: #004225;
+    font-family: Inter;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.about, .categories{
+    color: #004225;
+    font-family: Inter;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal; 
+}
+
+.home, .search{
+    width: 3.5rem;
+    height: 1.5rem;
+    flex-shrink: 0;
+    color :#004225;
+}
+
+.logo{
+    color: #000;
+    font-family: Inter;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
