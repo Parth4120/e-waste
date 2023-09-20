@@ -7,6 +7,7 @@ import Footer from './components/Footer';
 
 function App() {
   return (
+<<<<<<< HEAD
     <div>
       <div>
         <Navbar/>
@@ -18,6 +19,10 @@ function App() {
   <div>
   <Footer/>
   </div>
+=======
+    <div className="App">
+      <h1>E-waste</h1>
+>>>>>>> shabbir
     </div>
   );
 }
