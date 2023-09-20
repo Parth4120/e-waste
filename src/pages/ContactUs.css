@@ -88,7 +88,6 @@ textarea { font-size: 22px; }
 }
 .form-btn-container{
     margin-left: 13rem;
-    
 }
 
 .form-btn{
@@ -101,6 +100,7 @@ textarea { font-size: 22px; }
     font-weight: 400;
     line-height: normal; 
      margin-top: 1.5rem;
+     padding: 1rem;
 }
 
 

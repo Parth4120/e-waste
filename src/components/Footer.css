@@ -62,12 +62,12 @@
     align-items: center;
 }
 
-.footer-box-2 ul{
+.footer-box-2-ul{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    /* margin-top: 1.5rem; */
+    align-items: center; 
+     margin-top: 1.5rem; 
 }
 
 

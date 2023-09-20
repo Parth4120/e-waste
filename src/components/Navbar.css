@@ -6,7 +6,7 @@
     background-color: #CFE8DD;
 }
 
-ul{
+.navbar-ul{
     display: flex;
     align-items: center;
     gap: 2rem;

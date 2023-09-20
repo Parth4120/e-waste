@@ -49,8 +49,8 @@ const Footer = () => {
         <div className='footer-box-2-heading'>
             <h2>Service</h2>
         </div>
-        <div>
-            <ul>
+        <div className=''>
+            <ul className='footer-box-2-ul'>
                 <li>Lorem</li>
                 <li>Service</li>
                 <li>about</li>

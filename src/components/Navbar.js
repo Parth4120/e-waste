@@ -11,7 +11,7 @@ const Navbar = () => {
             </div>
 
             <nav className='nav-items'>
-                <ul>
+                <ul className='navbar-ul'>
                     <li className='search'>
                         <BiSearch/>
                     </li>
